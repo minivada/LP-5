@@ -62,3 +62,9 @@ int main() {
 """
 with open("bfs.cpp", "w") as f:
     f.write(code)
+
+
+
+//commands
+//!g++ -fopenmp bfs.cpp -o bfs
+//!./bfs
